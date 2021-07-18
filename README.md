@@ -1,1 +1,1 @@
-Calculator with HTML, CSS and JavaScript.
+[Calculator](https://nurlan789.github.io/calculator/) with HTML, CSS and JavaScript.
