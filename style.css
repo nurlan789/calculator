@@ -1,0 +1,115 @@
+.container {
+    margin: 0 auto;
+    height: 400px;
+    width: 300px;
+    display: grid;
+    background-color: rgb(77, 121, 129);
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+button {
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(203, 227, 231);
+}
+
+#display {
+    background-color: azure;
+    height: 60px;
+    border-radius: 5px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    font-size: 40px;
+}
+
+#clear {
+    background-color: rgb(228, 73, 73);
+    color: white;
+}
+
+#zero {
+    grid-column: 1/2;
+    grid-row: 6/7;
+}
+
+#one {
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+
+#two {
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+
+#three {
+    grid-column: 3/4;
+    grid-row: 5/6;
+}
+
+#four {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+#five {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+#six {
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+
+#seven {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+#eigth {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+#nine {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+#dot {
+    grid-column: 2/3;
+    grid-row: 6/7;
+}
+
+#equals {
+    grid-column: 3/5;
+    grid-row: 6/7;
+    background-color: rgb(53, 240, 221);
+}
+
+#add {
+    grid-column: 4/5;
+    grid-row: 5/6;
+}
+
+#multiply {
+    grid-column: 4/5;
+    grid-row: 4/5;
+}
+
+#subtract {
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+#divide {
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
